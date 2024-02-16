@@ -1,0 +1,7 @@
+number = input('номер рейса: ')
+nameairline = input('название авиакомпании (на русском языке): ')
+nameairlineEng = input('название авиакомпании (на английском языке): ')
+city = input('город прилета (на руссском языке): ')
+cityEng = input('город прилета (на английском языке): ')
+print('Заканчивается посадка на рейс', number, nameairline, 'до', city)
+print('This is the final boarding call for', nameairlineEng, 'flight', number, 'to', cityEng)
